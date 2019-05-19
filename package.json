@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "sjr-personal-site",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "test site with Gatsby",
+  "version": "0.0.1",
+  "author" : "",
   "dependencies": {
     "gatsby": "^2.3.31",
     "gatsby-image": "^2.0.40",
@@ -34,12 +34,5 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "deploy": "gatsby-plugin-s3 deploy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
