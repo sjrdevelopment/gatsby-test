@@ -19,6 +19,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "gatsby-plugin-s3": "^0.2.5",
     "prettier": "^1.17.0"
   },
   "keywords": [
@@ -31,7 +32,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
+    "deploy": "gatsby-plugin-s3 deploy"
   },
   "repository": {
     "type": "git",
