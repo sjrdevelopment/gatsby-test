@@ -3,7 +3,7 @@
   "private": true,
   "description": "test site with Gatsby",
   "version": "0.0.1",
-  "author" : "",
+  "author": "",
   "dependencies": {
     "gatsby": "^2.3.31",
     "gatsby-image": "^2.0.40",
@@ -19,6 +19,7 @@
     "react-helmet": "^5.2.0"
   },
   "devDependencies": {
+    "express": "^4.17.0",
     "gatsby-plugin-s3": "^0.2.5",
     "prettier": "^1.17.0"
   },
